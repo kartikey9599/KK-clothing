@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import CrwnLogo from "../../../assets/crown.svg";
+import CrwnLogo from "../../assets/crown.svg";
 import "./navigation.style.scss";
 
 function Navigation() {
