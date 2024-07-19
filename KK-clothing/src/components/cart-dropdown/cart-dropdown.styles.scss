@@ -31,4 +31,13 @@
     font-size: 16px;
     align-items: center;
   }
+  .empty-cart-text {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 }
