@@ -12,7 +12,7 @@ const categories = [
     id: 2,
     title: "jackets",
     imageUrl:
-      "https://contents.mediadecathlon.com/p2292989/7f484fed676425fad63d0f1a12f10b41/p2292989.jpg?format=auto&quality=70&f=650x0",
+      "https://assets.ajio.com/medias/sys_master/root/20231111/bu5e/654f9f06afa4cf41f5842e30/-1117Wx1400H-410393594-02o-MODEL.jpg",
     route: "shop/jackets",
   },
   {
@@ -26,7 +26,7 @@ const categories = [
     id: 4,
     title: "womens",
     imageUrl:
-      "https://discoverymood.com/wp-content/uploads/2020/04/Mental-Strong-Women-min.jpg",
+      "https://assets.roche.com/f/176343/4000x2669/a11458af18/womens-health-teaser.jpg",
     route: "shop/womens",
   },
   {
