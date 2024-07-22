@@ -9,9 +9,20 @@ export const NavigationContainer = styled.div`
 `;
 
 export const LogoContainer = styled(Link)`
-  height: 100%;
-  width: 70px;
-  padding: 25px;
+  .logo-container {
+    width: 70px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center;
+    position: relative;
+  }
+
+  .logo-container svg {
+    height: 100%;
+    position: relative;
+    top: -10px; /* Adjust this value to move the logo up or down */
+  }
 `;
 
 export const NavLinks = styled.div`

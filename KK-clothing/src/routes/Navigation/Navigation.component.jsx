@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import CrwnLogo from "../../assets/crown.svg";
+import logo from "../../assets/crown.svg";
 import CartIcon from "../../components/cart/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
 
@@ -23,7 +23,7 @@ function Navigation() {
     <>
       <NavigationContainer>
         <LogoContainer to="/">
-          <img src={CrwnLogo} className="logo" alt="Logo" />
+          <img src={logo} className="logo" alt="Logo" />
         </LogoContainer>
         <NavLinks>
           <NavLink to="/shop">SHOP</NavLink>
